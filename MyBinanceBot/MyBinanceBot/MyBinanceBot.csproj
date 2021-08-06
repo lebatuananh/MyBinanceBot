@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-MyBinanceBot-259CA476-1B23-4A75-BC6C-6199C7572F66</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Binance.Net" Version="7.0.0-beta3" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.10" />
+        <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+        <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="0.2.0" />
+    </ItemGroup>
+</Project>
